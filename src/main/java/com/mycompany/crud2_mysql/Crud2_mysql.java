@@ -11,6 +11,8 @@ package com.mycompany.crud2_mysql;
 public class Crud2_mysql {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FormAlumnos objetoFormulario = new FormAlumnos();
+        objetoFormulario.setVisible(true);
+        
     }
 }
